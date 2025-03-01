@@ -7,7 +7,7 @@
 	(title_block
 		(title "Kyutobodo")
 		(date "2025-02-23")
-		(rev "2")
+		(rev "4")
 		(comment 1 "junyali")
 		(comment 2 "https://github.com/junyali/kyutobodo")
 		(comment 3 "kyutobodo :3")
@@ -3585,6 +3585,12 @@
 		(uuid "10e6211e-18d3-4223-8787-ffac70722598")
 	)
 	(junction
+		(at 334.01 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1161298f-a077-4319-8735-878e9e02048e")
+	)
+	(junction
 		(at 304.8 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3595,12 +3601,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "147f30c8-aa82-4526-9ade-52a8ade074ae")
-	)
-	(junction
-		(at 353.06 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "149bda14-93f4-436c-b5c6-9da1beca9d55")
 	)
 	(junction
 		(at 152.4 170.18)
@@ -4251,6 +4251,12 @@
 		(uuid "5616f121-2380-488c-bf4f-9e302a30cf4e")
 	)
 	(junction
+		(at 334.01 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "562505e2-780c-46f3-a64b-c7d07a3f2e73")
+	)
+	(junction
 		(at 171.45 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4381,12 +4387,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "618160a1-04b7-4de7-9255-7085fda48e8a")
-	)
-	(junction
-		(at 342.9 242.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "619539f6-e85b-4765-a40c-1a1ecae57d1a")
 	)
 	(junction
 		(at 332.74 185.42)
@@ -5139,12 +5139,6 @@
 		(uuid "b560c39e-f9f5-4f47-83a5-17b515f1c074")
 	)
 	(junction
-		(at 353.06 242.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6b9f531-a284-429c-adc1-6a0004f11834")
-	)
-	(junction
 		(at 104.14 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5463,12 +5457,6 @@
 		(uuid "d6aed2ba-d392-45fb-bc8f-e738532e0e48")
 	)
 	(junction
-		(at 334.01 242.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6bf65a4-4661-4160-9cf8-bfc15cd87638")
-	)
-	(junction
 		(at 256.54 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5539,12 +5527,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd7b4c6b-6f55-4c8d-bd7e-623292af5ac2")
-	)
-	(junction
-		(at 342.9 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de9e8217-f56c-4d6b-9d79-420c62de3a21")
 	)
 	(junction
 		(at 293.37 40.64)
@@ -5653,12 +5635,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e88a0458-b7d6-4983-af21-fa79cd7d9070")
-	)
-	(junction
-		(at 334.01 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8b97426-8ef2-4f98-ab13-4cd60a43c696")
 	)
 	(junction
 		(at 209.55 92.71)
@@ -5875,10 +5851,6 @@
 		(uuid "1f103463-4992-4201-afdd-a0aa9e37c4ef")
 	)
 	(no_connect
-		(at 350.52 234.95)
-		(uuid "46c739a5-2156-4e29-a462-2ba23ee79ca9")
-	)
-	(no_connect
 		(at 379.73 48.26)
 		(uuid "54ced27b-6d3f-4fa0-9b60-d3aaa9efc9d7")
 	)
@@ -5901,6 +5873,10 @@
 	(no_connect
 		(at 364.49 83.82)
 		(uuid "ea2ad24b-6959-418d-962b-45bc765cd0fa")
+	)
+	(no_connect
+		(at 331.47 234.95)
+		(uuid "f56c21ea-0994-497d-a4d4-e737e832ff05")
 	)
 	(wire
 		(pts
@@ -8164,16 +8140,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 242.57) (xy 342.9 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5981b135-fbd3-477b-83b6-3a4352298894")
-	)
-	(wire
-		(pts
 			(xy 124.46 227.33) (xy 124.46 232.41)
 		)
 		(stroke
@@ -8481,16 +8447,6 @@
 			(type default)
 		)
 		(uuid "65ddebc6-cb23-4d6b-97b4-44117324092b")
-	)
-	(wire
-		(pts
-			(xy 342.9 227.33) (xy 353.06 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6674996e-518a-4c76-a560-815399c439b9")
 	)
 	(wire
 		(pts
@@ -8941,16 +8897,6 @@
 			(type default)
 		)
 		(uuid "74bf1919-bd2b-4787-81e3-8325a227a1a1")
-	)
-	(wire
-		(pts
-			(xy 342.9 242.57) (xy 334.01 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74ce42ec-c14c-455e-9009-6245a4362d2e")
 	)
 	(wire
 		(pts
@@ -10061,16 +10007,6 @@
 			(type default)
 		)
 		(uuid "9872f5b5-1efe-4eee-8c97-3dce7e7aee6d")
-	)
-	(wire
-		(pts
-			(xy 353.06 227.33) (xy 353.06 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98fd84ab-8b0c-4f75-a3c3-84e91babe3f5")
 	)
 	(wire
 		(pts
@@ -12624,16 +12560,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 237.49) (xy 353.06 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f131d907-f15a-41ac-8fb2-eb5bc54e6b48")
-	)
-	(wire
-		(pts
 			(xy 54.61 177.8) (xy 54.61 196.85)
 		)
 		(stroke
@@ -12824,16 +12750,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 234.95) (xy 335.28 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f90a7034-e843-4282-b56d-1b1a94cc615e")
-	)
-	(wire
-		(pts
 			(xy 44.45 54.61) (xy 57.15 54.61)
 		)
 		(stroke
@@ -12931,16 +12847,6 @@
 			(type default)
 		)
 		(uuid "fd330cfe-9465-4a4b-8236-18c997462a9c")
-	)
-	(wire
-		(pts
-			(xy 334.01 227.33) (xy 342.9 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd4fde06-9b00-4b1a-96ad-26e93807adf2")
 	)
 	(wire
 		(pts
@@ -16868,7 +16774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.75u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 191.77 80.01 0)
 			(effects
 				(font
@@ -22671,73 +22577,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 353.06 234.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52d56a8f-bb63-4667-9539-707ec06d0b25")
-		(property "Reference" "C78"
-			(at 353.06 239.014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 353.06 241.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 353.06 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 353.06 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 353.06 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f8db5c6-d8d4-4681-ab0b-e2fc2e4675c8")
-		)
-		(pin "2"
-			(uuid "0d9c3bfe-2fe8-40ce-ae1d-c0fb5139cff2")
-		)
-		(instances
-			(project "kyutobodo_pcb"
-				(path "/def6816f-a917-433b-b217-d2ec70008cb5"
-					(reference "C78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 200.66 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23573,7 +23412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.75u"
 			(at 191.77 67.31 0)
 			(effects
 				(font
@@ -27422,7 +27261,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 353.06 227.33 270)
+		(at 334.01 227.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27431,7 +27270,7 @@
 		(fields_autoplaced yes)
 		(uuid "872518a8-24eb-455a-9877-29b1b5c30c9f")
 		(property "Reference" "#PWR030"
-			(at 349.25 227.33 0)
+			(at 330.2 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27440,7 +27279,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 356.87 227.3299 90)
+			(at 337.82 227.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27449,7 +27288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 353.06 227.33 0)
+			(at 334.01 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27458,7 +27297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 227.33 0)
+			(at 334.01 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27467,7 +27306,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 353.06 227.33 0)
+			(at 334.01 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31132,7 +30971,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 353.06 242.57 90)
+		(at 334.01 242.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31141,7 +30980,7 @@
 		(fields_autoplaced yes)
 		(uuid "b751bff2-c38e-4c2b-9eec-7eca6f798066")
 		(property "Reference" "#PWR035"
-			(at 359.41 242.57 0)
+			(at 340.36 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31150,7 +30989,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 356.87 242.5699 90)
+			(at 337.82 242.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31159,7 +30998,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 353.06 242.57 0)
+			(at 334.01 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31168,7 +31007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 242.57 0)
+			(at 334.01 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31177,7 +31016,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 353.06 242.57 0)
+			(at 334.01 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37556,81 +37395,6 @@
 			(project ""
 				(path "/def6816f-a917-433b-b217-d2ec70008cb5"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 342.9 234.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f65e5312-f0df-4d26-84a4-3cf444440749")
-		(property "Reference" "D144"
-			(at 342.9 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI-E"
-			(at 342.9 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KeebioParts:SK6812-MINI-E"
-			(at 344.17 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 345.44 244.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 342.9 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5a76c640-c4af-4d13-bc8c-d433ca3b1f27")
-		)
-		(pin "3"
-			(uuid "953f7515-85dd-4e30-a1e0-f5aeacc8abbf")
-		)
-		(pin "1"
-			(uuid "ffe54f8b-5b11-4201-8f2e-e965868c77f1")
-		)
-		(pin "2"
-			(uuid "d3be6b34-16df-4913-9276-e6b1f1eebf02")
-		)
-		(instances
-			(project "kyutobodo_pcb"
-				(path "/def6816f-a917-433b-b217-d2ec70008cb5"
-					(reference "D144")
 					(unit 1)
 				)
 			)
